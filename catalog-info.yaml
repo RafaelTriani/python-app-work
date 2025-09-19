@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-app-work
+  description: Python app that displays time - named python-app-work
+  annotations:
+    github.com/project-slug: RafaelTriani/python-app-work
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
